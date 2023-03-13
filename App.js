@@ -15,9 +15,10 @@ export default function App() {
 
   const submitHandler = (text) => {
     if(text.length >3){
+      let val = Math.random()
       setTodo((alltodo) =>{
           return[
-            {text:text, key:Math.random().toString()},
+            {text:text, key:val.toString()},
             ...alltodo
           ]
       })
