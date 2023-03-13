@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,FlatList,Alert,TouchableOpacity,Keyboard,TouchableWithoutFeedback } from 'react-native';
 import React,{useState} from 'react';
 import Header from './components/header';
